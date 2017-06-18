@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2017, 6:48:03 AM
+    Author     : crescent
+*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #fafafa;
+}
+.home-account-pane-top-logo a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#home-root, article, main, section {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#home-root, body, html {
+    height: 100%;
+}
+.home-sub-sec {
+    min-height: 100%;
+    overflow: hidden;
+}
+.home-main {
+    background-color: #fff;
+}
+.home-article {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    width: 100%;
+}
+.home-account-pane {
+    color: #262626;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 400px;
+}
+.home-account-pane-top {
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.home-account-pane-top-logo {
+    margin: 22px auto 8px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 51px;
+    width: auto;
+    text-align: center;
+}
+.home-account-pane-top-logo h1{
+    font-size: 18px;
+}
+.home-account-pane-top-form {
+    margin-bottom: 10px;
+}
+.home-account-pane-top-form-act {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.home-account-pane-top-form-group {
+    margin: 0 40px 15px;
+    position: relative;
+}
+.home-account-pane-top-form-input {
+    background: 0 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    font-size: 14px;
+    padding: 9px 8px 7px;
+    -webkit-appearance: none;
+    width: 100%;
+}
+.home-account-pane-top-form-reset {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100%;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+.home-account-pane-top-form-reset-link {
+    font-size: 14px;
+    margin-right: 4px;
+}
+.home-account-pane-top-form-button {
+    margin: 4px 40px 14px;
+    display: block;
+    position: relative;
+}
+.home-cousor {
+    line-height: 28px;
+}
+.home-account-pane-top-form-btn {
+    font-size: 16px;
+}
+.home-cousor {
+    padding: 0 8px;
+}
+.home-padding {
+    cursor: pointer;
+}
+.home-account-pane-top-form-btn-primary, .home-account-pane-top-form-btn-primary {
+    background: #3c4650;
+    border-color: #3c4650;
+    color: #FFF;
+}
+a, a:focus, a:hover{
+    color: #00234B;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home-account-pane-top-form-btn {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-appearance: none;
+}
+.home-account-pane-top {
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.home-account-option {
+    color: #262626;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+ol, ul {
+    list-style: none;
+}
+.home-account-copyright {
+    margin-top: 10px;
+}
+p.home-account-copyright-link {
+    color: #999;
+    margin: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media(max-width: 768px){
+    body, .home-main{
+        background: #fff;
+    }
+    .home-account-pane-top{
+        border: none;
+    }
+}
+
+.home-success-thanks .alert{
+    padding: 5px 0;
+    border-radius: 0;
+    text-align: center;
+}
+.home-success-mesg{
+    padding: 5px 15px;
+    text-align: center;
+}
